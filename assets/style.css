@@ -1,0 +1,14 @@
+
+body {
+    background-color: white;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    color: rgb(113, 123, 133);
+    text-align: center;
+}
+
+/* Heading */
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+}
