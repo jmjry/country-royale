@@ -27,10 +27,20 @@ body {
     padding: 1%;
 }
 
+.egypt_image {
+    max-height: 200px;
+    max-width: 250px;
+}
+
+.spain_image {
+    max-height: 200px;
+    max-width: 250px;
+}
+
 /* Score Area */
 
 .score_area {
-    padding-top: 175%;
+    padding-top: 10%;
 }
 
 /* Submit Answer */
