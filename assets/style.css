@@ -10,5 +10,31 @@ body {
 
 .heading {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+}
+
+/* Game layout */
+
+.game_area {
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+    width: 90%;
+    height: 70vh;
+    max-height: 500px;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+/* Score Area */
+
+.score_area {
+    padding-top: 175%;
+}
+
+/* Submit Answer */
+
+.submit_button {
+  
 }
