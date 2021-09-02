@@ -29,12 +29,14 @@ body {
 
 .egypt_image {
     max-height: 200px;
-    max-width: 250px;
+    width: 100%;
+    max-width: 200%
 }
 
 .spain_image {
     max-height: 200px;
-    max-width: 250px;
+    width: 100%;
+    max-width: 200%
 }
 
 /* Score Area */
