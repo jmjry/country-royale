@@ -63,5 +63,26 @@ const countries = [
   ]
 
   const num_questions = 10
+
+  /* Set up the game canvas. */
   
-  
+function setupGame() {
+
+  for (let i = 1; i < num_questions; i++){
+
+    let firstCountry = chooseRandomCountry()
+    let secondCountry = chooseRandomCountry()
+
+    while (firstCountry.name === secondCountry.name) {
+      secondCountry = chooseRandomCountry()
+    }
+
+    let questionHTMLElement = generateQuestionHTMLElement(
+        firstCountry, secondCountry
+    )
+
+    questionCanvas.innerHTML = ''
+    questionCanvas.appendChild(questionHTMLElement)
+
+  }
+}
