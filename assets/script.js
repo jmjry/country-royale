@@ -61,4 +61,7 @@ const countries = [
       },
 
   ]
+
+  const num_questions = 10
+  
   
