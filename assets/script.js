@@ -1,3 +1,5 @@
+/* List of countries & their land mass */
+
 const countries = [
     {
       'name': 'Spain',
@@ -64,8 +66,8 @@ const countries = [
 
   const num_questions = 10
 
-  /* Set up the game canvas. */
-  
+  /* Game logic setup */
+
 function setupGame() {
 
   for (let i = 1; i < num_questions; i++){
