@@ -88,3 +88,27 @@ function setupGame() {
 
   }
 }
+
+/* Given 2 countries, generate the markup for the question 
+
+@param {object} firstCountry - Information about the first country.
+@param {object} secondCountry - Information about the second country.
+
+
+@returns {HTMLElement} - An HTML element object representing the question.
+
+*/
+
+function generateQuestionHTMLElement(firstCountry, secondCountry) {
+
+}
+
+/* Return a random country from COUNTRIES
+
+@returns {object} - A country object chosen at random.
+
+*/
+
+function chooseRandomCountry(exclude=null) {
+
+}
