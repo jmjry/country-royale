@@ -87,9 +87,14 @@ const countries = [
 
   ]
 
+  /* Game logic setup */
+
+  /* Number of questions */ 
+
   const num_questions = 10
 
-  /* Game logic setup */
+  /* Randomly selects a country from the array */ 
+  const random = Math.floor(Math.random() * countries.length);
 
 function setupGame() {
 
