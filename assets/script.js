@@ -3,7 +3,7 @@
 const countries = [
   {'name': 'Spain', 'size_km2': 505990},
   {'name': 'Egypt','size_km2': 1010000},
-  {'name': 'England','size_km2': 1010000},
+  {'name': 'England','size_km2': 130279},
   {'name': 'Canada','size_km2': 9985000},
   {'name': 'Yemen','size_km2': 555000},
   {'name': 'Turkey','size_km2': 783562},
