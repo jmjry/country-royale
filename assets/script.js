@@ -19,35 +19,33 @@ const countries = [
 
   ]
 
-  /* Game logic setup */
-
   /* Number of questions */ 
 
   const num_questions = 10
 
+  /* Game logic setup */
   /* Randomly selects a country from the array */ 
-  const random = Math.floor(Math.random() * countries.length);
-
-function setupGame() {
-
-  for (let i = 1; i < num_questions; i++){
-
+  
+ function setupGame() {
     let firstCountry = chooseRandomCountry()
-    let secondCountry = chooseRandomCountry()
+    let secondCountry = chooseRandomCountry(firstCountry)
 
-    while (firstCountry.name === secondCountry.name) {
-      secondCountry = chooseRandomCountry()
+    document.getElementById('first_question_choice').checked = false
+    document.getElementById('second_question_choice').checked = false
+
+    document.getElementById('first_question').innerHTML = firstCountry.name
+    document.getElementById('second_question').innerHTML = secondCountry.name
+
+    document.getElementById('first_question_choice').value = firstCountry.name
+    document.getElementById('second_question_choice').value = secondCountry.name
+
+    total_score = parseInt(document.getElementById('score').innerHTML) + parseInt(document.getElementById('incorrect').innerHTML)
+    if (total_score >= num_questions) {
+        document.getElementById('game_area').style.display = "none"
+        document.getElementById('play_again').style.display = "block"
     }
-
-    let questionHTMLElement = generateQuestionHTMLElement(
-        firstCountry, secondCountry
-    )
-
-    questionCanvas.innerHTML = ''
-    questionCanvas.appendChild(questionHTMLElement)
-
-  }
 }
+
 
 /* Given 2 countries, generate the markup for the question 
 
