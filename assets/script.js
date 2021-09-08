@@ -70,3 +70,11 @@ function generateQuestionHTMLElement(firstCountry, secondCountry) {
             return countries[getRandomArbitrary(0, countries.length)]
         }
     }
+
+    function getCountryByName(country_name) {
+        // Return the country object (which includes the size)
+        var country = countries.filter(function(value, index, arr){
+            return value.name == country_name;
+        });
+        return country[0]
+    }
