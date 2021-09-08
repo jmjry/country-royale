@@ -1,40 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/style.css">
-    <title>Country Royale</title>
-</head>
-<body>
-    <h1 class="heading"> Country Royale </h1>
-    <div class="question">
-        <h2> Which is bigger?</h2>
-    </div>
-
-    <div id="game_area"> 
-        <input type="radio" id="first_question_choice" name="question" value="">
-        <label for="first_question_choice" id="first_question"></label>
-        <br>
-        <input type="radio" id="second_question_choice" name="question" value="">
-        <label for="second_question_choice" id="second_question"></label>
-        <br>
-        <br>
-        <button data-type="submit" class="submit_button" onclick="chooseAnswer()"> Submit Answer
-        </button>
-        </div>
-    <div id="play_again" style="display: none;"> 
-        <button data-type="submit" class="submit_button" onclick="playAgain()"> Play Again?</button>
-    </div>
-
-    <div class="score_area">
-        <p class="scores">Correct Answers <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
-    </div>
-
-
-
-    <script src="assets/script.js"></script>
-</body>
-</html>
+<!DOCTYPE html>	
+<html lang="en">	
+<head>	
+    <meta charset="UTF-8">	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+    <link rel="stylesheet" href="/assets/style.css">	
+    <title>Country Royale</title>	
+</head>	
+<body>	
+    <h1 class="heading"> Country Royale </h1>	
+        <div class="question">	
+            <h2>Which is bigger?</h2>	
+        </div>	
+     <div id="game_area">	
+        <input type="radio" id="first_question_choice" name="question" value="">	
+        <label for="first_question_choice" id="first_question"></label><br>	
+        <input type="radio" id="second_question_choice" name="question" value="">	
+        <label for="second_question_choice" id="second_question"></label><br>	
+        <br>	
+        <button data-type="submit" class="submit_button" onclick="chooseAnswer()">Submit Answer</button>	
+     </div>	
+     <div id="play_again" style="display:none;">	
+         <button data-type="submit" class="submit_button" onclick="playAgain()">Play Again?</button>	
+     </div>	
+    <div class="score_area">	
+        <p class="scores">Correct Answers <span id="score">0</span></p>	
+        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>	
+    </div>	
+    <script src="assets/script.js"></script>	
+</body>	
+</html>	
