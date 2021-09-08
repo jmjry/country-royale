@@ -47,6 +47,15 @@ const countries = [
     }
 }
 
+function playAgain() {
+    document.getElementById('score').innerHTML = 0
+    document.getElementById('incorrect').innerHTML = 0
+    document.getElementById('game_area').style.display = "block"
+    document.getElementById('play_again').style.display = "none"
+    setupGame()
+}
+
+
 function generateQuestionHTMLElement(firstCountry, secondCountry) {
 
 }
