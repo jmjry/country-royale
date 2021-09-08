@@ -24,6 +24,7 @@ const countries = [
   const num_questions = 10
 
   /* Game logic setup */
+
   /* Randomly selects a country from the array */ 
   
  function setupGame() {
@@ -64,7 +65,10 @@ function generateQuestionHTMLElement(firstCountry, secondCountry) {
 /* Return a random country from COUNTRIES
 
 @returns {object} - A country object chosen at random.
-
+    if (exclude) {
+        var used_country_index = countries.indexOf(exclude);
+        countries = countries.splice(0, used_country_index)
+    }
 */
 
 function chooseRandomCountry(exclude=null) {
