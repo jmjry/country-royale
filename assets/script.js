@@ -116,4 +116,10 @@ function generateQuestionHTMLElement(firstCountry, secondCountry) {
             return ele[i].value;
         }
     }
+
+    function getFormData() {
+        first_choice = document.getElementById('first_question_choice').value,
+        second_choice = document.getElementById('second_question_choice').value
+        return [first_choice, second_choice]
+    }
     
