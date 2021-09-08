@@ -109,6 +109,15 @@ function generateQuestionHTMLElement(firstCountry, secondCountry) {
           }
       }
 
+      if (chosen_answer.name == second_choice.name) {
+        if (chosen_answer.size_km2 > first_choice.size_km2) {
+            plus_score()
+        }
+        else {
+            minus_score()
+        }
+    }
+
       function plus_score() {
         return document.getElementById('score').innerHTML = parseInt(document.getElementById('score').innerHTML) + 1
     }
