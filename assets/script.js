@@ -107,4 +107,13 @@ function generateQuestionHTMLElement(firstCountry, secondCountry) {
     function minus_score() {
         return document.getElementById('incorrect').innerHTML = parseInt(document.getElementById('incorrect').innerHTML) + 1
     }
+
+    function getCountrySelected() {
+        var ele = document.getElementsByName('question');
+    
+        for(i = 0; i < ele.length; i++) {
+            if(ele[i].checked)
+            return ele[i].value;
+        }
+    }
     
