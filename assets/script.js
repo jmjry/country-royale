@@ -59,6 +59,14 @@ function generateQuestionHTMLElement(firstCountry, secondCountry) {
         countries = countries.splice(0, used_country_index)
     }
 
-function chooseRandomCountry(exclude=null) {
-
-}
+    function chooseRandomCountry(exclude=null) {
+        if (exclude) {
+            var filtered_countries = countries.filter(function(value, index, arr){
+                return index != countries.indexOf(exclude);
+            });
+            return filtered_countries[getRandomArbitrary(0, filtered_countries.length)]
+        }
+        else {
+            return countries[getRandomArbitrary(0, countries.length)]
+        }
+    }
