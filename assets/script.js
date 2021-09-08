@@ -82,4 +82,21 @@ function generateQuestionHTMLElement(firstCountry, secondCountry) {
     function getRandomArbitrary(min, max) {
         return Math.floor(Math.random() * (max - min) + min)
       }
-      
+      /* Game setup */
+
+      function chooseAnswer() {
+          chosen_answer = getCountryByName(getCountrySelected())
+          form_data = getFormData()
+          first_choice = getCountryByName(form_data[0])
+          second_choice = getCountryByName(form_data[1])
+
+          if (chosen_answer.name == first_choice.name) {
+              if (chosen_answer.size_km2 > second_choice.size_km2) {
+                  plus_score()
+              }
+              else {
+                  minus_score()
+              }
+          }
+      }
+    
