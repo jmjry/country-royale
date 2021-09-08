@@ -93,14 +93,7 @@ setupGame()
 }
 
 
-/* Return a random country from COUNTRIES
-
-@returns {object} - A country object chosen at random.
-if (exclude) {
-	var used_country_index = countries.indexOf(exclude);
-	countries = countries.splice(0, used_country_index)
-}
-*/
+/* Return a random country from COUNTRIES */
 
 function chooseRandomCountry(exclude = null) {
 if (exclude) {
