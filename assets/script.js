@@ -99,4 +99,12 @@ function generateQuestionHTMLElement(firstCountry, secondCountry) {
               }
           }
       }
+
+      function plus_score() {
+        return document.getElementById('score').innerHTML = parseInt(document.getElementById('score').innerHTML) + 1
+    }
+
+    function minus_score() {
+        return document.getElementById('incorrect').innerHTML = parseInt(document.getElementById('incorrect').innerHTML) + 1
+    }
     
