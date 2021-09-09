@@ -27,18 +27,6 @@ body {
     padding: 1%;
 }
 
-.egypt_image {
-    max-height: 200px;
-    width: 100%;
-    max-width: 200%
-}
-
-.spain_image {
-    max-height: 200px;
-    width: 100%;
-    max-width: 200%
-}
-
 /* Score Area */
 
 .score_area {
