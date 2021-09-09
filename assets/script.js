@@ -64,6 +64,7 @@ const countries = [{
 const num_questions = 10
 
 /* Game logic setup */
+
 function setupGame() {
 let firstCountry = chooseRandomCountry()
 let secondCountry = chooseRandomCountry(firstCountry)
@@ -78,11 +79,13 @@ document.getElementById('first_question_choice').value = firstCountry.name
 document.getElementById('second_question_choice').value = secondCountry.name
 
 total_score = parseInt(document.getElementById('score').innerHTML) + parseInt(document.getElementById('incorrect').innerHTML)
+
 if (total_score >= num_questions) {
 	document.getElementById('game_area').style.display = "none"
 	document.getElementById('play_again').style.display = "block"
 }
 }
+/* Lets user play the game again with a starting score of 0 */ 
 
 function playAgain() {
 document.getElementById('score').innerHTML = 0
@@ -106,8 +109,10 @@ if (exclude) {
 }
 }
 
+/* Return the country object (which includes the size) */
+
 function getCountryByName(country_name) {
-// Return the country object (which includes the size)
+
 var country = countries.filter(function (value, index, arr) {
 	return value.name == country_name;
 });
@@ -118,6 +123,8 @@ function getRandomArbitrary(min, max) {
 return Math.floor(Math.random() * (max - min) + min)
 }
 
+/* Sets up the game */ 
+
 setupGame()
 
 function chooseAnswer() {
@@ -125,6 +132,8 @@ chosen_answer = getCountryByName(getCountrySelected())
 form_data = getFormData()
 first_choice = getCountryByName(form_data[0])
 second_choice = getCountryByName(form_data[1])
+
+/* Calculates if the chosen answer is correct or incorrect */ 
 
 if (chosen_answer.name == first_choice.name) {
 	if (chosen_answer.size_km2 > second_choice.size_km2) {
@@ -143,6 +152,8 @@ if (chosen_answer.name == second_choice.name) {
 }
 setupGame()
 }
+
+/* Adds score to either correct or incorrect */ 
 
 function plus_score() {
 return document.getElementById('score').innerHTML = parseInt(document.getElementById('score').innerHTML) + 1
