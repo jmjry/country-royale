@@ -34,3 +34,12 @@ body {
 }
 
 /* Submit Answer */
+
+.submit_button {
+    background-color: #E6ECF0;
+
+}
+
+.submit_button:hover {
+    background-color: rgb(113, 123, 133)
+}
