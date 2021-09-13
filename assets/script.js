@@ -2,7 +2,8 @@
 
 const countries = [{
 	'name': 'Spain',
-	'size_km2': 505990
+	'size_km2': 505990,
+	image : 'spain.png' 
 },
 {
 	'name': 'Egypt',
