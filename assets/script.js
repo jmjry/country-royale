@@ -3,7 +3,7 @@
 const countries = [{
 	'name': 'Spain',
 	'size_km2': 505990,
-	image : 'spain.png' 
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Egypt',
@@ -78,6 +78,9 @@ document.getElementById('second_question').innerHTML = secondCountry.name
 
 document.getElementById('first_question_choice').value = firstCountry.name
 document.getElementById('second_question_choice').value = secondCountry.name
+
+document.getElementById('first_question_choice').src = firstCountry.image
+document.getElementById('second_question_choice').src = secondCountry.image
 
 total_score = parseInt(document.getElementById('score').innerHTML) + parseInt(document.getElementById('incorrect').innerHTML)
 
