@@ -42,13 +42,14 @@ h2 {
   }
 
 #first_question, #second_question { 
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 /* Score Area */
 
 .score_area {
     padding-top: 10%;
+    font-size: 1rem;
 }
 
 /* Submit Answer */
