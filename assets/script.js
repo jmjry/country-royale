@@ -7,59 +7,73 @@ const countries = [{
 },
 {
 	'name': 'Egypt',
-	'size_km2': 1010000
+	'size_km2': 1010000,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'England',
-	'size_km2': 130279
+	'size_km2': 130279,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Canada',
-	'size_km2': 9985000
+	'size_km2': 9985000,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Yemen',
-	'size_km2': 555000
+	'size_km2': 555000,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Turkey',
-	'size_km2': 783562
+	'size_km2': 783562,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Brazil',
-	'size_km2': 8516000
+	'size_km2': 8516000,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'France',
-	'size_km2': 632734
+	'size_km2': 632734,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Peru',
-	'size_km2': 1285000
+	'size_km2': 1285000,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Mexico',
-	'size_km2': 1973000
+	'size_km2': 1973000,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Germany',
-	'size_km2': 357386
+	'size_km2': 357386,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Poland',
-	'size_km2': 312679
+	'size_km2': 312679,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Greece',
-	'size_km2': 131957
+	'size_km2': 131957,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Ireland',
-	'size_km2': 84421
+	'size_km2': 84421,
+	'image': ["assets/images/spain.png"]
 },
 {
 	'name': 'Kazakhstan',
 	'size_km2': 2725000,
+	'image': ["assets/images/spain.png"]
 },
 ]
 const num_questions = 10
