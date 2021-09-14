@@ -81,10 +81,10 @@ document.getElementById('second_question_choice').value = secondCountry.name
 
 /* Returns image associated with country */ 
 
-const img = document.querySelector("#first_question_choice")
+const img1 = document.querySelector("#first_question_image")
 img1.src = firstCountry.image
 
-const img2 = document.querySelector("#second_question_choice")
+const img2 = document.querySelector("#second_question_image")
 img2.src = secondCountry.image
 
 total_score = parseInt(document.getElementById('score').innerHTML) + parseInt(document.getElementById('incorrect').innerHTML)
