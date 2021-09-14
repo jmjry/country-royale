@@ -56,7 +56,8 @@ h2 {
 
 .submit_button {
     font-family: 'Courier New', Courier, monospace;;
-    background-color: #E6ECF0;
+    color: rgb(255, 255, 255);
+    background-color: rgb(201, 123, 133);
     font-size: 20px;
     border-radius: 50px;
     margin-top: 10%;
@@ -64,7 +65,8 @@ h2 {
 }
 
 .submit_button:hover {
-    background-color: rgb(113, 123, 133)
+    background-color: rgb(255, 255, 255);
+    color: rgb(201, 123, 133)
 }
 
 /* Images */ 
