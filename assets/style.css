@@ -11,6 +11,7 @@ body {
 .heading {
     text-align: center;
     font-size: 2rem;
+    text-decoration: underline;
 }
 
 /* Game layout */
