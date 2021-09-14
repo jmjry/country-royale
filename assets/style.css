@@ -27,6 +27,15 @@ body {
     padding: 1%;
 }
 
+/* Hide radio buttons */ 
+
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
 #first_question, #second_question { 
     font-size: 24px;
 }
