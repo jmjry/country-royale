@@ -1,7 +1,7 @@
 
 body {
     background-color: white;
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     color: rgb(113, 123, 133);
     text-align: center;
 }
@@ -54,6 +54,7 @@ h2 {
 /* Submit Answer */
 
 .submit_button {
+    font-family: 'Courier New', Courier, monospace;;
     background-color: #E6ECF0;
     font-size: 20px;
     border-radius: 50px;
