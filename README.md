@@ -84,6 +84,5 @@ Testing was undertaken at the start, during and after finishing my project. To c
 
 * Fonts were imported from [Google Fonts](https://fonts.google.com/)
 * Icons in the Opening Times were imported from [Font Awesome](https://fontawesome.com)
-* All images are unique and was provided to me by Lewis Ryan who is the owner of all these images. Lewis has given me full rights to use these images in this project. 
 
 ### Acknowledgments 
