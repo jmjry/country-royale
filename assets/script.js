@@ -79,8 +79,13 @@ document.getElementById('second_question').innerHTML = secondCountry.name
 document.getElementById('first_question_choice').value = firstCountry.name
 document.getElementById('second_question_choice').value = secondCountry.name
 
-document.getElementById('first_question_choice').src = firstCountry.image
-document.getElementById('second_question_choice').src = secondCountry.image
+/* Returns image associated with country */ 
+
+const img = document.querySelector("#first_question_choice")
+img1.src = firstCountry.image
+
+const img2 = document.querySelector("#second_question_choice")
+img2.src = secondCountry.image
 
 total_score = parseInt(document.getElementById('score').innerHTML) + parseInt(document.getElementById('incorrect').innerHTML)
 
@@ -89,6 +94,7 @@ if (total_score >= num_questions) {
 	document.getElementById('play_again').style.display = "block"
 }
 }
+
 /* Lets user play the game again with a starting score of 0 */ 
 
 function playAgain() {
@@ -126,6 +132,7 @@ return country[0]
 function getRandomArbitrary(min, max) {
 return Math.floor(Math.random() * (max - min) + min)
 }
+
 
 /* Sets up the game */ 
 
