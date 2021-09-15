@@ -95,3 +95,36 @@ input[type='radio']:checked+label img {
     }
     
 }
+
+/* for screen sizes of 422 */ 
+
+@media screen and (min-width: 422px) {
+
+    #first_question_image, #second_question_image {
+        max-width: 85%;
+        max-height: 85%;
+    }
+    
+}
+
+/* for screen sizes of 445 */ 
+
+@media screen and (min-width: 445px) {
+
+    .score_area {
+        padding-top: 2.5%;
+        font-size: 0.9rem;
+    }
+
+    .submit_button {
+        font-size: 1rem;
+        border-radius: 50px;
+        margin-top: 5%;
+    
+    }
+    
+    #first_question_image, #second_question_image {
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
