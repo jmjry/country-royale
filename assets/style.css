@@ -58,8 +58,8 @@ h2 {
 
 .submit_button {
     font-family: 'Courier New', Courier, monospace;;
-    color: rgb(255, 255, 255);
-    background-color: rgb(201, 123, 133);
+    color: #7F807A;
+    background-color: #FCE196;
     font-size: 20px;
     border-radius: 50px;
     margin-top: 10%;
@@ -67,8 +67,8 @@ h2 {
 }
 
 .submit_button:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(201, 123, 133)
+    background-color: #7F807A;
+    color: #FCE196
 }
 
 /* Images */ 
@@ -76,9 +76,9 @@ h2 {
 #first_question_image, #second_question_image {
     max-width: 100%;
     max-height: 100%;
-    border: 4px solid #333;
+    border: 4px solid #68635F;
 }
 
 input[type='radio']:checked+label img {
-    border-color: rebeccapurple !important;
+    border-color: #7AF80A !important;
 }
