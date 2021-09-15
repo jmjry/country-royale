@@ -1,10 +1,18 @@
-# Project: Country-Royale
+# Country-Royale
 
 ## Planning process:
 
+[Mobile Wireframe 2 (PP2).pdf](https://github.com/jmjry/country-royale/files/7170430/Mobile.Wireframe.2.PP2.pdf)
+
+
 ### Changes to my planning process: 
 
+
 ## Technologies: 
+
+HTML
+CSS
+JavaScript
 
 ### Frameworks, Libraries & Programs: 
 
@@ -81,8 +89,5 @@ Testing was undertaken at the start, during and after finishing my project. To c
 * When stuck on a development issue, I checked [Stackoverflow](https://stackoverflow.com) to see if other developers had the same problems.
 
 ### Media 
-
-* Fonts were imported from [Google Fonts](https://fonts.google.com/)
-* Icons in the Opening Times were imported from [Font Awesome](https://fontawesome.com)
 
 ### Acknowledgments 
