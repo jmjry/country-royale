@@ -50,7 +50,7 @@ h2 {
 /* Score Area */
 
 .score_area {
-    padding-top: 10%;
+    padding-top: 2.5%;
     font-size: 1rem;
 }
 
@@ -62,7 +62,7 @@ h2 {
     background-color: #FCE196;
     font-size: 20px;
     border-radius: 50px;
-    margin-top: 10%;
+    margin-top: 5%;
 
 }
 
@@ -82,3 +82,6 @@ h2 {
 input[type='radio']:checked+label img {
     border-color: #7AF80A !important;
 }
+
+/* Media Queries */ 
+
