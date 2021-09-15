@@ -7,14 +7,22 @@
 
 ### Changes to my planning process: 
 
+#### Intial Design
+* Removed additional pages 
+* Adjusted image positions 
+* Removed Navbar 
+* Removed additional pages 
+* Adjusted image positions 
+* Removed Navbar 
 
 ## Technologies: 
 
-HTML
-CSS
-JavaScript
+For this project I will be using HTML5, CSS & JavaScript.
 
 ### Frameworks, Libraries & Programs: 
+* [GitPod](https://www.gitpod.io/) was the version control used.
+* [GitHub](https://github.com/) is the repository used for project codes to be pushed from GitPod.
+* [Balsamiq](https://balsamiq.com/) was used to create wireframes during the design process of this project.
 
 ## Features 
 
@@ -47,7 +55,7 @@ JavaScript
 
 ## Testing 
 
-Testing was undertaken at the start, during and after finishing my project. To complete my testing I used the [Google Chrome DevTool](https://developer.chrome.com/docs/devtools/), a spreadsheet to track tests, validators (as soon below) and reviews by peers (as seen in the credits).
+Testing was undertaken at the start, during and after finishing my project. To complete my testing I used the [Google Chrome DevTool](https://developer.chrome.com/docs/devtools/), a spreadsheet to track tests, validators (as seen below) and reviews by peers (as seen in the credits).
 
 ### Feature testing 
 * Each feature was tested for responsiveness on desktop, tablet and mobile. If the feature responded correctly then it was marked green on my spreadsheet.
@@ -71,9 +79,24 @@ Testing was undertaken at the start, during and after finishing my project. To c
  
  ### Known Bugs 
  
+ * During the testing of my project, after the removal of radio buttons I noticed that there was no indication for the user when selecting an answer. This has since been fixed but was recorded as a bug during time of testing.
+ 
  ## Deployment 
 
 ### How was this site deployed? 
+
+* Firstly, I opened up country-royale in the GitHub repository and navigated to the Settings tab. After selecting Settings, I proceeded to click on Pages.
+* Following this, I selected Master Branch from the source section.
+* After selecting Master Branch, the page will now automatically refresh to display a succesful deployment. 
+* Any future changes pushed to the same Master Branch will now take effect on the live page (after a few minutes).
+
+[Link to live site](https://jmjry.github.io/country-royale/)
+
+### Content 
+
+* All written content, including the Menu, is original content written by the developer. 
+* All media included on the website is for educational purpose only.
+
 
  ## Credits:
  
