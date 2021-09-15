@@ -60,7 +60,7 @@ h2 {
     font-family: 'Courier New', Courier, monospace;;
     color: #7F807A;
     background-color: #FCE196;
-    font-size: 20px;
+    font-size: 1.25rem;
     border-radius: 50px;
     margin-top: 5%;
 
@@ -85,3 +85,13 @@ input[type='radio']:checked+label img {
 
 /* Media Queries */ 
 
+/* for screen sizes of 380 */ 
+
+@media screen and (min-width: 380px) {
+
+    #first_question_image, #second_question_image {
+        max-width: 90%;
+        max-height: 90%;
+    }
+    
+}
