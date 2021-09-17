@@ -127,4 +127,19 @@ input[type='radio']:checked+label img {
         max-width: 80%;
         max-height: 80%;
     }
+
+    #first_question, #second_question {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
 }
+
+/* for screen sizes of 500 */ 
+
+@media screen and (min-width: 500px) {
+
+}
+
