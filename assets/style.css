@@ -135,11 +135,17 @@ input[type='radio']:checked+label img {
     h2 {
         font-size: 1rem;
     }
-}
+
 
 /* for screen sizes of 500 */ 
 
 @media screen and (min-width: 500px) {
 
+    #first_question_image, #second_question_image {
+        max-width: 80%;
+        max-height: 80%;
+    }
+
 }
 
+}
