@@ -182,12 +182,37 @@ input[type='radio']:checked+label img {
 
 @media screen and (min-width: 570px) {
     #first_question, #second_question {
-        font-size:  3rem; 
+        font-size:  2.5rem; 
+        float:left;
     }
     
     #first_question_image, #second_question_image {
         max-width: 70%;
         max-height: 70%;
+        margin-left: 30%;
+    }
+
+    #main_question {
+        font-size: 1.25rem;
+    }
+
+}
+
+/* for screen sizes of 585 */ 
+
+@media screen and (min-width: 585px) {
+    #first_question, #second_question {
+        font-size:  2.5rem; 
+        float:left;
+    }
+    
+    #first_question_image, #second_question_image {
+        max-width: 65%;
+        max-height: 65%;
+    }
+
+    #main_question {
+        font-size: 1.25rem;
     }
 
 }
