@@ -1,16 +1,6 @@
 /* List of countries & their land mass */
 
 const countries = [{
-	'name': 'Spain',
-	'size_km2': 505990,
-	'image': ["assets/images/spain.png"]
-},
-{
-	'name': 'Egypt',
-	'size_km2': 1010000,
-	'image': ["assets/images/egypt.png"]
-},
-{
 	'name': 'England',
 	'size_km2': 130279,
 	'image': ["assets/images/england.png"]
@@ -19,11 +9,6 @@ const countries = [{
 	'name': 'Canada',
 	'size_km2': 9985000,
 	'image': ["assets/images/canada.png"]
-},
-{
-	'name': 'Yemen',
-	'size_km2': 555000,
-	'image': ["assets/images/yemen.png"]
 },
 {
 	'name': 'Turkey',
@@ -39,11 +24,6 @@ const countries = [{
 	'name': 'France',
 	'size_km2': 632734,
 	'image': ["assets/images/france.png"]
-},
-{
-	'name': 'Peru',
-	'size_km2': 1285000,
-	'image': ["assets/images/peru.png"]
 },
 {
 	'name': 'Mexico',
