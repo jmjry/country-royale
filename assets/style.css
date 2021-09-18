@@ -148,4 +148,21 @@ input[type='radio']:checked+label img {
 
 }
 
+/* for screen sizes of 522 */ 
+
+@media screen and (min-width: 522px) {
+
+    .score_area {
+        font-size: 1rem;
+        margin-top: -3.5%;
+    }
+
+    .submit_button {
+        font-size: 1rem;
+        border-radius: 50px;
+        margin-top: -20%;
+    }
+
+}
+
 }
