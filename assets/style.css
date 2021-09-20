@@ -80,7 +80,7 @@ h2 {
 }
 
 input[type='radio']:checked+label img {
-    border-color: #7AF80A !important;
+    border-color: #FCE196 !important;
 }
 
 /* Media Queries */ 
