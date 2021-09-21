@@ -1,9 +1,9 @@
 /* List of countries & their land mass */
 
 const countries = [{
-	'name': 'England',
-	'size_km2': 130279,
-	'image': ['assets/images/england.png']
+	'name': 'Australia',
+	'size_km2': 7692000,
+	'image': ['assets/images/australia.png']
 },
 {
 	'name': 'Canada',
@@ -54,6 +54,51 @@ const countries = [{
 	'name': 'Kazakhstan',
 	'size_km2': 2725000,
 	'image': ['assets/images/kazakhstan.png']
+},
+{
+	'name': 'New Zealand',
+	'size_km2': 268021,
+	'image': ['assets/images/newzealand.png']
+},
+{
+	'name': 'Mongolia',
+	'size_km2': 1564000,
+	'image': ['assets/images/mongolia.png']
+},
+{
+	'name': 'Iceland',
+	'size_km2': 103000,
+	'image': ['assets/images/iceland.png']
+},
+{
+	'name': 'Madagascar',
+	'size_km2': 587041,
+	'image': ['assets/images/madagascar.png']
+},
+{
+	'name': 'South Africa',
+	'size_km2': 1220000,
+	'image': ['assets/images/southafrica.png']
+},
+{
+	'name': 'Sierra Leone',
+	'size_km2': 71740,
+	'image': ['assets/images/sierraleone.png']
+},
+{
+	'name': 'Mauritania',
+	'size_km2': 1030000,
+	'image': ['assets/images/mauritania.png']
+},
+{
+	'name': 'Cambodia',
+	'size_km2': 181035,
+	'image': ['assets/images/cambodia.png']
+},
+{
+	'name': 'Malaysia',
+	'size_km2': 329847,
+	'image': ['assets/images/malaysia.png']
 },
 ]
 const num_questions = 10
