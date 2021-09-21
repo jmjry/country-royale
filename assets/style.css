@@ -71,6 +71,22 @@ h2 {
     color: #FCE196
 }
 
+.restart_game {
+
+    font-family: 'Courier New', Courier, monospace;;
+    color: #7F807A;
+    background-color: #FCE196;
+    font-size: .75rem;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+.restart_game:hover {
+
+    background-color: #7F807A;
+    color: #FCE196
+}
+
 /* Images */ 
 
 #first_question_image, #second_question_image {
