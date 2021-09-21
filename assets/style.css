@@ -63,7 +63,6 @@ h2 {
     font-size: 1.25rem;
     border-radius: 50px;
     margin-top: 5%;
-
 }
 
 .submit_button:hover {
@@ -78,7 +77,7 @@ h2 {
     background-color: #FCE196;
     font-size: .75rem;
     border-radius: 50px;
-     margin-top: 5%;
+    margin: -3%;
 }
 
 .restart_game:hover {
