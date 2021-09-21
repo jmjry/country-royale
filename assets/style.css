@@ -78,7 +78,7 @@ h2 {
     background-color: #FCE196;
     font-size: .75rem;
     border-radius: 50px;
-    margin-top: 5%;
+     margin-top: 5%;
 }
 
 .restart_game:hover {
@@ -243,7 +243,7 @@ input[type='radio']:checked+label img {
 
         font-size: 1rem;
         border-radius: 50px;
-        margin-top: -3%
+        margin-top: 5%;
 
     }
 }
