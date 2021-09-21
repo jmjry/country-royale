@@ -1,51 +1,51 @@
 <!DOCTYPE html>	
-<html lang="en">	
-<head>	
-    <meta charset="UTF-8">	
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">	
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
-    <link rel="stylesheet" href="assets/style.css">	
-    <title>Country Royale</title>	
-</head>	
-<body>	
-    <h1 class="heading"> Country Royale </h1>	
-        <div class="question">	
-            <h2 id="main_question">Which country is bigger?</h2>	
-        </div>
-        <section> 
-     <div id="game_area">	
-         <div> 
-        <input type="radio" id="first_question_choice" name="question" value="">	
-        <label for="first_question_choice">
-            <span id="first_question"></span> 
-            <img src="" id="first_question_image" alt="">
-        </label><br>
-        </div>
-        <div> 	
-        <input type="radio" id="second_question_choice" name="question" value="">	
-        <label for="second_question_choice">
-            <span id="second_question"></span>
-            <img src="" id="second_question_image" alt="">	
-        </label><br>
-        </div>
-        <br>	
-        <button data-type="submit" class="submit_button" onclick="chooseAnswer()">Submit Answer</button>	
-     </div>	
-</section>	
-    <section> 
-     <div id="play_again" style="display:none;">	
-         <button data-type="submit" class="submit_button" onclick="playAgain()">Play Again?</button>	
-     </div>	
-    </section>
-    <section> 
-    <div class="score_area">	
-        <p class="scores">Correct Answers <span id="score">0</span></p>	
-        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>	
-    </div>	
-    <div id="restart_game">	
-        <button data-type="submit" class="restart_game" onclick="playAgain()">Restart Game</button>	
-    </div>	
-</section>
-    <script src="assets/script.js"></script>	
-</body>	
-</html>	
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="assets/style.css">
+      <title>Country Royale</title>
+   </head>
+   <body>
+      <h1 class="heading"> Country Royale </h1>
+      <div class="question">
+         <h2 id="main_question">Which country is bigger?</h2>
+      </div>
+      <section>
+         <div id="game_area">
+            <div> 
+               <input type="radio" id="first_question_choice" name="question" value="">	
+               <label for="first_question_choice">
+               <span id="first_question"></span> 
+               <img src="" id="first_question_image" alt="">
+               </label><br>
+            </div>
+            <div> 	
+               <input type="radio" id="second_question_choice" name="question" value="">	
+               <label for="second_question_choice">
+               <span id="second_question"></span>
+               <img src="" id="second_question_image" alt="">	
+               </label><br>
+            </div>
+            <br>	
+            <button data-type="submit" class="submit_button" onclick="chooseAnswer()">Submit Answer</button>	
+         </div>
+      </section>
+      <section>
+         <div id="play_again" style="display:none;">	
+            <button data-type="submit" class="submit_button" onclick="playAgain()">Play Again?</button>	
+         </div>
+      </section>
+      <section>
+         <div class="score_area">
+            <p class="scores">Correct Answers <span id="score">0</span></p>
+            <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+         </div>
+         <div id="restart_game">	
+            <button data-type="submit" class="restart_game" onclick="playAgain()">Restart Game</button>	
+         </div>
+      </section>
+      <script src="assets/script.js"></script>	
+   </body>
+</html>
