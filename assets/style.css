@@ -198,14 +198,16 @@ input[type='radio']:checked+label img {
 
 @media screen and (min-width: 570px) {
     #first_question, #second_question {
-        font-size:  2.5rem; 
-        float:left;
+        font-size:  2rem; 
+        width: 100%;
+        margin: auto;
     }
     
     #first_question_image, #second_question_image {
-        max-width: 70%;
-        max-height: 70%;
-        margin-left: 30%;
+        max-width: 80%;
+        max-height: 80%;
+        width: auto;
+        margin: auto;
     }
 
     #main_question {
@@ -233,4 +235,75 @@ input[type='radio']:checked+label img {
 
 }
 
+/* for screen sizes of 680 */ 
+
+@media screen and (min-width: 680px) {
+
+    .restart_game {
+
+        font-size: 1rem;
+        border-radius: 50px;
+        margin-top: -3%
+
+    }
+}
+
+/* for screen sizes of 920 */ 
+
+@media screen and (min-width: 920px) {
+
+    #first_question_image, #second_question_image {
+        max-width: 60%;
+        max-height: 60%;
+    }
+}  
+
+/* for screen sizes of 977 */ 
+
+@media screen and (min-width: 977px) {
+
+    #first_question_image, #second_question_image {
+        max-width: 55%;
+        max-height: 55%;
+    }
+
+    .submit_button {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* for screen sizes of 1015 */ 
+
+@media screen and (min-width: 1015px) {
+
+    #first_question_image, #second_question_image {
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+
+}
+
+/* for screen sizes of 1100 */ 
+
+@media screen and (min-width: 1100px) {
+
+    #first_question_image, #second_question_image {
+        max-width: 45%;
+        max-height: 45%;
+    }
+
+}
+
+/* for screen sizes of 1100 */ 
+
+@media screen and (min-width: 1100px) {
+
+    #first_question_image, #second_question_image {
+        max-width: 40%;
+        max-height: 40%;
+    }
+
+}
 }
