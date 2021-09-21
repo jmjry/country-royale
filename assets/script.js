@@ -1,5 +1,4 @@
 /* List of countries & their land mass */
-
 const countries = [{
 	'name': 'Australia',
 	'size_km2': 7692000,
@@ -118,7 +117,7 @@ document.getElementById('second_question').innerHTML = secondCountry.name
 document.getElementById('first_question_choice').value = firstCountry.name
 document.getElementById('second_question_choice').value = secondCountry.name
 
-/* Returns image associated with country */ 
+/* Returns image associated with country */
 
 const img1 = document.querySelector("#first_question_image")
 img1.src = firstCountry.image
@@ -134,7 +133,7 @@ if (total_score >= num_questions) {
 }
 }
 
-/* Lets user play the game again with a starting score of 0 */ 
+/* Lets user play the game again with a starting score of 0 */
 
 function playAgain() {
 document.getElementById('score').innerHTML = 0
@@ -149,7 +148,7 @@ setupGame()
 
 function chooseRandomCountry(exclude = null) {
 if (exclude) {
-	var filtered_countries = countries.filter(function (value, index, arr) {
+	var filtered_countries = countries.filter(function(value, index, arr) {
 		return index != countries.indexOf(exclude);
 	});
 	return filtered_countries[getRandomArbitrary(0, filtered_countries.length)]
@@ -162,7 +161,7 @@ if (exclude) {
 
 function getCountryByName(country_name) {
 
-var country = countries.filter(function (value, index, arr) {
+var country = countries.filter(function(value, index, arr) {
 	return value.name == country_name;
 });
 return country[0]
@@ -173,7 +172,7 @@ return Math.floor(Math.random() * (max - min) + min)
 }
 
 
-/* Sets up the game */ 
+/* Sets up the game */
 
 setupGame()
 
@@ -183,7 +182,7 @@ form_data = getFormData()
 first_choice = getCountryByName(form_data[0])
 second_choice = getCountryByName(form_data[1])
 
-/* Calculates if the chosen answer is correct or incorrect */ 
+/* Calculates if the chosen answer is correct or incorrect */
 
 if (chosen_answer.name == first_choice.name) {
 	if (chosen_answer.size_km2 > second_choice.size_km2) {
@@ -203,7 +202,7 @@ if (chosen_answer.name == second_choice.name) {
 setupGame()
 }
 
-/* Adds score to either correct or incorrect */ 
+/* Adds score to either correct or incorrect */
 
 function plus_score() {
 return document.getElementById('score').innerHTML = parseInt(document.getElementById('score').innerHTML) + 1
