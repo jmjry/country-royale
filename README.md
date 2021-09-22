@@ -28,35 +28,44 @@ For this project I will be using HTML5, CSS & JavaScript.
 
 ### Current features:
 
-* F1 
- 
-The logo to Country Royale is simple styled text and is placed at the top of the page. It's style is similar to the rest of Country Royale and represents the branding of Country Royale.
+* F1 - The logo to Country Royale is simple styled text and is placed at the top of the page. It's style is similar to the rest of Country Royale and represents the branding of Country Royale.
 
 ![logo](https://user-images.githubusercontent.com/86608354/134344465-0a3e3843-6d81-4948-a218-8dbb5188cb90.png)
 
 
-* F2 
+* F2 - "Which country is bigger" is the question every user is trying to answer. This will appear everytime new options are generated.
+ 
+![main header](https://user-images.githubusercontent.com/86608354/134344705-685db1a6-fabc-47d1-8930-0e30d7e81094.png)
 
-* F3 
 
-* F4 
+* F3 - Immediately after loading, two options are generated randomly from a list created. The two options will display the Country Name & Relevant Image. The user is then able to click on which country they think is bigger, before submitting their answer. When a user clicks on an image, it will highlight as shown in the image below. This was added to improve user experience and understanding.
 
-* F5 
+![1st option](https://user-images.githubusercontent.com/86608354/134345859-6bcabea6-a18b-4661-b2df-82a4440549bd.png)
+![selected option](https://user-images.githubusercontent.com/86608354/134346222-6875f62d-1b52-4c93-8075-3e090e5009db.png)
 
-* F6 
+* F4 - The submit answer button will interchange colours to signal to a user that their answer has been submitted. Once the submit answer is clicked by a user, a calculation happens that compares both of the countries to decide if the user was correct or incorrect.
 
-* F7 
+![submit answer ](https://user-images.githubusercontent.com/86608354/134346272-e89d3ad3-5bd4-4486-bd55-ecef7a555169.png)
+![submit answer clicked](https://user-images.githubusercontent.com/86608354/134346276-d9e8cacd-a387-4dcd-9d93-09135fdd6d82.png)
 
-* F8 
+
+* F5 - The score will signal to users if they are correct or incorrect after submitting their answer. This will automatically update and be visible to the user. 
+
+![score ](https://user-images.githubusercontent.com/86608354/134346294-385dc631-c07b-4acd-9ca2-5dfc68ab8654.png)
+![active score ](https://user-images.githubusercontent.com/86608354/134346298-b38e25f8-c4f0-49ab-9664-3fd6486fa435.png)
+
+* F6 - If clicked, this will restart the score to 0 and let the user play again without answering 10 questions. This will always be available on the page for a user to click.
+
+![restart game ](https://user-images.githubusercontent.com/86608354/134346320-e97b1388-2000-4032-8573-4149daaadaf3.png)
+![restart game clicked](https://user-images.githubusercontent.com/86608354/134346365-e6092a78-7123-4a6b-9941-beab41e8ef03.png)
+
+* F7 - After answering 10 total questions, the game will present the user their final score and offer them the opportunity to play again. 
+
+![play again](https://user-images.githubusercontent.com/86608354/134346376-e6373ff6-e13c-4133-ac34-f359478f2535.png)
 
 ### Features which could be implemented in the future:
 
-* F9 
-  
-* F10
-
-* F11
-
+* F9 - Leaderboard which lets a user input a unique name and tracks scores to be compared with other users would be a future feature to be added into Country Royale.
 
 ## Testing 
 
