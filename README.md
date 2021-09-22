@@ -28,7 +28,12 @@ For this project I will be using HTML5, CSS & JavaScript.
 
 ### Current features:
 
-* F1  
+* F1 
+ 
+The logo to Country Royale is simple styled text and is placed at the top of the page. It's style is similar to the rest of Country Royale and represents the branding of Country Royale.
+
+![logo](https://user-images.githubusercontent.com/86608354/134344465-0a3e3843-6d81-4948-a218-8dbb5188cb90.png)
+
 
 * F2 
 
