@@ -1,5 +1,8 @@
 # Country-Royale
 
+<img width="1626" alt="responsive image" src="https://user-images.githubusercontent.com/86608354/134350715-a44fd2df-2e24-402a-8a94-7fb52d8589ad.png">
+
+
 ## Planning process:
 
 [Mobile Wireframe 2 (PP2).pdf](https://github.com/jmjry/country-royale/files/7170430/Mobile.Wireframe.2.PP2.pdf)
