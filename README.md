@@ -87,8 +87,11 @@ Testing was undertaken at the start, during and after finishing my project. To c
 ### Validator testing 
 
 * HTML 
-  * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) 
+  * Testing results below [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) 
+
+* Errors appear due to an empty img tag within my HTML however these tags must remain empty as an image is it is randomly replaced by images when a user plays the game.
 <img width="1680" alt="HTML Validation (1)" src="https://user-images.githubusercontent.com/86608354/135063381-3c3a3382-0c3c-495e-98fe-109087f86e92.png">
+* As the design does not use multiple titles and sections a small advisory appears to suggest these changes.
 <img width="1680" alt="HTML Validation (2)" src="https://user-images.githubusercontent.com/86608354/135063410-10d36b32-351d-4646-b75b-000dbb3c5431.png">
 
  * CSS
