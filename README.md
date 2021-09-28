@@ -88,10 +88,16 @@ Testing was undertaken at the start, during and after finishing my project. To c
 
 * HTML 
   * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) 
+<img width="1680" alt="HTML Validation (1)" src="https://user-images.githubusercontent.com/86608354/135063381-3c3a3382-0c3c-495e-98fe-109087f86e92.png">
+<img width="1680" alt="HTML Validation (2)" src="https://user-images.githubusercontent.com/86608354/135063410-10d36b32-351d-4646-b75b-000dbb3c5431.png">
 
  * CSS
    * No erros were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)  
- 
+ <img width="1680" alt="CSS Validation" src="https://user-images.githubusercontent.com/86608354/135063432-f22c3f7d-5047-4296-9841-586a11d66e6e.png">
+
+ * JavaScript 
+  * No errors were foudn when passing through the official [JSHint validator](https://jshint.com/)
+
  ### Accessibility testing 
  
  ### Known Bugs 
