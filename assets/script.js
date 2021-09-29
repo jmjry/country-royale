@@ -165,7 +165,7 @@ setupGame()
 
 function chooseRandomCountry(exclude = null) {
 if (exclude) {
-	var filtered_countries = countries.filter(function(value, index, arr) {
+	let filtered_countries = countries.filter(function(value, index, arr) {
 		return index != countries.indexOf(exclude);
 	});
 	return filtered_countries[getRandomArbitrary(0, filtered_countries.length)]
@@ -179,7 +179,7 @@ if (exclude) {
 
 function getCountryByName(country_name) {
 
-var country = countries.filter(function(value, index, arr) {
+let country = countries.filter(function(value, index, arr) {
 	return value.name == country_name;
 });
 return country[0]
@@ -238,7 +238,7 @@ return document.getElementById('incorrect').innerHTML = parseInt(document.getEle
 }
 
 function getCountrySelected() {
-var ele = document.getElementsByName('question');
+let ele = document.getElementsByName('question');
 
 for (i = 0; i < ele.length; i++) {
 	if (ele[i].checked)
