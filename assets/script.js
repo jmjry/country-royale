@@ -102,7 +102,11 @@ const countries = [{
 ]
 const num_questions = 10
 
-/* Game logic setup */
+/**  
+ * Game logic setup 
+ * @param firstCountry - chooses a random country from array
+ * @param secondCountry - chooses a random country from array but checks it's not the same as first
+*/
 
 function setupGame() {
 let firstCountry = chooseRandomCountry()
@@ -117,7 +121,10 @@ document.getElementById('second_question').innerHTML = secondCountry.name
 document.getElementById('first_question_choice').value = firstCountry.name
 document.getElementById('second_question_choice').value = secondCountry.name
 
-/* Returns image associated with country */
+/**  
+ * Returns image associated with country 
+ * @param img1 - gets an image from the array 
+ * @param img2 - gets an image from the array */
 
 const img1 = document.querySelector("#first_question_image")
 img1.src = firstCountry.image
@@ -125,7 +132,15 @@ img1.src = firstCountry.image
 const img2 = document.querySelector("#second_question_image")
 img2.src = secondCountry.image
 
+/**
+ * @param total_score - calculates the total score
+ */
+
 total_score = parseInt(document.getElementById('score').innerHTML) + parseInt(document.getElementById('incorrect').innerHTML)
+
+/**
+ * @param - displays play_again if total score equals total number of questions
+ */
 
 if (total_score >= num_questions) {
 	document.getElementById('game_area').style.display = "none"
@@ -133,7 +148,8 @@ if (total_score >= num_questions) {
 }
 }
 
-/* Lets user play the game again with a starting score of 0 */
+/** 
+ * @param playAgain -Lets user play the game again with a starting score of 0 */
 
 function playAgain() {
 document.getElementById('score').innerHTML = 0
@@ -144,7 +160,8 @@ setupGame()
 }
 
 
-/* Return a random country from COUNTRIES */
+/** 
+ * @param chooseRandomCountry - Return a random country from countries */
 
 function chooseRandomCountry(exclude = null) {
 if (exclude) {
@@ -157,7 +174,8 @@ if (exclude) {
 }
 }
 
-/* Return the country object (which includes the size) */
+/** 
+ * @param getCountryByName - Return the country object (which includes the size) */
 
 function getCountryByName(country_name) {
 
@@ -172,7 +190,8 @@ return Math.floor(Math.random() * (max - min) + min)
 }
 
 
-/* Sets up the game */
+/** 
+ * @param setupGame - Sets up the game */
 
 setupGame()
 
@@ -182,7 +201,9 @@ form_data = getFormData()
 first_choice = getCountryByName(form_data[0])
 second_choice = getCountryByName(form_data[1])
 
-/* Calculates if the chosen answer is correct or incorrect */
+/** 
+ *  Calculates if the chosen answer is correct or incorrect 
+ */
 
 if (chosen_answer.name == first_choice.name) {
 	if (chosen_answer.size_km2 > second_choice.size_km2) {
@@ -202,7 +223,10 @@ if (chosen_answer.name == second_choice.name) {
 setupGame()
 }
 
-/* Adds score to either correct or incorrect */
+/** 
+@param plus_score - Adds score to correct 
+@param minus_score - Adds score to incorrect 
+*/
 
 function plus_score() {
 return document.getElementById('score').innerHTML = parseInt(document.getElementById('score').innerHTML) + 1
