@@ -103,9 +103,9 @@ const countries = [{
 const num_questions = 10;
 
 /**  
- * Game logic setup 
- * @param firstCountry - chooses a random country from array
- * @param secondCountry - chooses a random country from array but checks it's not the same as first
+* Game logic setup 
+* @param firstCountry - chooses a random country from array
+* @param secondCountry - chooses a random country from array but checks it's not the same as first
 */
 
 function setupGame() {
@@ -149,7 +149,7 @@ if (total_score >= num_questions) {
 }
 
 /** 
- * @param playAgain -Lets user play the game again with a starting score of 0 */
+* @param playAgain -Lets user play the game again with a starting score of 0 */
 
 function playAgain() {
 document.getElementById('score').innerHTML = 0;
@@ -161,7 +161,7 @@ setupGame();
 
 
 /** 
- * @param chooseRandomCountry - Return a random country from countries */
+* @param chooseRandomCountry - Return a random country from countries */
 
 function chooseRandomCountry(exclude = null) {
 if (exclude) {
@@ -175,7 +175,7 @@ if (exclude) {
 }
 
 /** 
- * @param getCountryByName - Return the country object (which includes the size) */
+* @param getCountryByName - Return the country object (which includes the size) */
 
 function getCountryByName(country_name) {
 
@@ -191,7 +191,7 @@ return Math.floor(Math.random() * (max - min) + min);
 
 
 /** 
- * @param setupGame - Sets up the game */
+* @param setupGame - Sets up the game */
 
 setupGame();
 
