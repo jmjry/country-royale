@@ -155,3 +155,6 @@ Testing was undertaken at the start, during and after finishing my project. To c
 * When stuck on a development issue, I checked [Stackoverflow](https://stackoverflow.com) to see if other developers had the same problems.
 
 ### Acknowledgments 
+
+* I'd like to thank Brian Macharia for providing feedback, ideas and suggestions for improving my site.
+
