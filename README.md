@@ -5,8 +5,8 @@
 
 ## Planning process:
 
-[Mobile Wireframe](https://github.com/jmjry/country-royale/files/7170430/Mobile.Wireframe.2.PP2.pdf)
-[Desktop Wireframe](https://github.com/jmjry/country-royale/files/7296080/Portfolio.Project.2.-.Desktop.pdf)
+* [Mobile Wireframe](https://github.com/jmjry/country-royale/files/7170430/Mobile.Wireframe.2.PP2.pdf)
+* [Desktop Wireframe](https://github.com/jmjry/country-royale/files/7296080/Portfolio.Project.2.-.Desktop.pdf)
 
 
 
