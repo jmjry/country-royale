@@ -6,6 +6,8 @@
 ## Planning process:
 
 [Mobile Wireframe 2 (PP2).pdf](https://github.com/jmjry/country-royale/files/7170430/Mobile.Wireframe.2.PP2.pdf)
+[Desktop Wireframe](https://user-images.githubusercontent.com/86608354/136254896-c6b872b1-3ff2-4304-b6e0-7163b19ce4c7.png)
+
 
 
 ### Changes to my planning process: 
@@ -17,6 +19,7 @@
 * Removed additional pages 
 * Adjusted image positions 
 * Removed Navbar 
+* Added restart game button
 
 ## Technologies: 
 
