@@ -6,7 +6,8 @@
 ## Planning process:
 
 [Mobile Wireframe 2 (PP2).pdf](https://github.com/jmjry/country-royale/files/7170430/Mobile.Wireframe.2.PP2.pdf)
-[Desktop Wireframe](https://user-images.githubusercontent.com/86608354/136254896-c6b872b1-3ff2-4304-b6e0-7163b19ce4c7.png)
+[Desktop Wireframe]![Portfolio Project 2 Desktop Wireframe ](https://user-images.githubusercontent.com/86608354/136255262-28655bd7-18d6-4ba3-a775-8431272dbc42.png)
+
 
 
 
