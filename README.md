@@ -113,6 +113,9 @@ Testing was undertaken at the start, during and after finishing my project. To c
  
   * Using the lighthouse testing available with the google devtool Country Royale received a performance score of 86. To improve this, I should upload all of my images into an online storage and call upon the url instead of transfering this data directly. 
 
+* Feature Testing <img width="718" alt="Testing spreadsheet" src="https://user-images.githubusercontent.com/86608354/136250964-1cf9ae2e-57b5-4e25-a8e8-6eb561101394.png">
+ * Each individual feature was tested with the results recorded on a spreadsheet. The test includes responsiveness checks and that the feature completes the intended task. 
+
 
  ### Known Bugs 
  
@@ -142,12 +145,12 @@ Testing was undertaken at the start, during and after finishing my project. To c
 
 ### Content 
 
+* All images were taken from Apple Maps and are used for educational purposes only.
+
 ### Code 
 
 * As a go to reasource hub I used [W3S Schools](https://www.w3schools.com/default.asp).
 * To create my responsive picture examples I used [ami.responsive](http://ami.responsivedesign.is).
 * When stuck on a development issue, I checked [Stackoverflow](https://stackoverflow.com) to see if other developers had the same problems.
-
-### Media 
 
 ### Acknowledgments 
