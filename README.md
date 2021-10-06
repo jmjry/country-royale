@@ -133,16 +133,11 @@ Testing was undertaken at the start, during and after finishing my project. To c
 
 [Link to live site](https://jmjry.github.io/country-royale/)
 
-### Content 
-
-* All written content, including the Menu, is original content written by the developer. 
-* All media included on the website is for educational purpose only.
-
-
  ## Credits:
  
  * To ensure my CSS code was formatted correctly, I ran it through a formatter which can be found here: [CSS Code Formatter](https://www.freeformatter.com/css-beautifier.html#ad-output)
  * To ensure my HTML code was formatted correctly, I ran it through a formatter which can be found here: [HTML Code Formatter](https://www.freeformatter.com/html-formatter.html)
+ * To ensure my JavaScript code was formatted correctly, I ran it through a formatter which can be found here: [JavaScript Code Formatter](https://beautifier.io/)
 
 ### Content 
 
