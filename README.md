@@ -105,6 +105,9 @@ Testing was undertaken at the start, during and after finishing my project. To c
 
  ### Accessibility testing 
  
+ * I used [WAVE](https://wave.webaim.org/report#/https://jmjry.github.io/country-royale/) to test the accessibility of Country Royale. 
+  * 6 contrast errors were found however these do not need to be fixed. The first error is that the submit button inverts colors when a user hovers over it. This is the same for the restart game button. The other contrast errors are due to the scoring system however these do not prevent any accessibility issues.
+ 
  ### Known Bugs 
  
  * During the testing of my project, after the removal of radio buttons I noticed that there was no indication for the user when selecting an answer. This has since been fixed but was recorded as a bug during time of testing.
