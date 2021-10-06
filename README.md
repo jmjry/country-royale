@@ -113,7 +113,8 @@ Testing was undertaken at the start, during and after finishing my project. To c
  
   * Using the lighthouse testing available with the google devtool Country Royale received a performance score of 86. To improve this, I should upload all of my images into an online storage and call upon the url instead of transfering this data directly. 
 
-* Feature Testing <img width="718" alt="Testing spreadsheet" src="https://user-images.githubusercontent.com/86608354/136250964-1cf9ae2e-57b5-4e25-a8e8-6eb561101394.png">
+* Feature Testing 
+<img width="718" alt="Testing spreadsheet" src="https://user-images.githubusercontent.com/86608354/136250964-1cf9ae2e-57b5-4e25-a8e8-6eb561101394.png">
  * Each individual feature was tested with the results recorded on a spreadsheet. The test includes responsiveness checks and that the feature completes the intended task. 
 
 
