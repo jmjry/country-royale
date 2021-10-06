@@ -1,7 +1,12 @@
-# Country-Royale
+# Country Royale
 
 <img width="1626" alt="responsive image" src="https://user-images.githubusercontent.com/86608354/134350715-a44fd2df-2e24-402a-8a94-7fb52d8589ad.png">
 
+
+
+## What is Country Royale?
+
+Country Royale is an interactive geography game which tests your knowledge on which countries are bigger. You will be presented with two random countries and have to decide which is bigger by clicking on your answer and submitting to see if you were right! Test your knowledge and see if you're a geography master!
 
 ## Planning process:
 
