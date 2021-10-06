@@ -98,8 +98,10 @@ Testing was undertaken at the start, during and after finishing my project. To c
    * No erros were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)  
  <img width="1680" alt="CSS Validation" src="https://user-images.githubusercontent.com/86608354/135063432-f22c3f7d-5047-4296-9841-586a11d66e6e.png">
 
- * JavaScript 
-  * No errors were foudn when passing through the official [JSHint validator](https://jshint.com/)
+ * JavaScript
+
+  * 11 warnings appear when using a JSHint validator however these were only due to JS extensions and are not examples of the code failing. These warnings can be ignored but I have provided an image to demonstrate what they look like.  [JSHint validator](https://jshint.com/) 
+  <img width="463" alt="js testing " src="https://user-images.githubusercontent.com/86608354/136179486-8e46824b-3fb6-4cf5-bf14-fe903ec71346.png">
 
  ### Accessibility testing 
  
